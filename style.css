@@ -1,0 +1,1081 @@
+*{
+    margin: 0px;
+}
+body{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#top-banner{
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;  
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+}
+#top-banner > p{
+    display: inline-block;
+}
+#top-banner > a{
+    color: red;
+    margin-left: 15px;
+}
+
+/* NAVBAR */
+#navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+#navbar > div{
+    padding: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+#navbar > div > a{
+    color: black;
+    padding-left: 20px;
+}
+#navbar > div >a:hover{
+    color: #ed0331;
+}
+/* #navbar > div > button{
+    margin-left: 10px;
+} */
+#navbar > div > button:nth-last-child(2){
+    margin-left: 30px;
+    background-color: #ed0331;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border: 1px solid #ed0331;
+    border-radius: 5px;
+}
+#navbar > div > button:nth-last-child(2):hover{
+    background-color: #bd092c;
+    cursor: pointer;
+}
+#navbar > div > button:last-child:hover{
+    background-color: #f2c6e5;
+    cursor: pointer;
+}
+#navbar > div > button:last-child{
+    margin-left: 10px;
+    color: #ed0331;
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    border: 1px solid #ed0331;
+    border-radius: 5px;
+}
+
+/*PREPLEAF BANNER*/
+#banner2 > a > img{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+/* AMBITIONS OUTCOME BANNER */
+#banner3{
+    width:100%;
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#banner3 > h1{
+    font-family: Arial Black;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#banner3 > p:nth-child(3){
+    font-size: 20px;
+    margin-top: 15px;
+}
+#banner3 > p:nth-child(4){
+    font-size: 20px;
+    font-weight: bolder;
+}
+#banner3 > p:nth-child(5){
+    margin-top: -15px;
+}
+#banner3 > button{
+    background-color: #ed0331;
+    color: white;
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #ed0331;
+    border-radius: 5px;
+}
+#banner3 > button:hover{
+    background-color: #bd092c;
+    cursor: pointer;
+}
+
+/* Alumni Banner */
+#alumni{
+    width:100%;
+    margin-top: 40px;
+    height: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#alumni > img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Hiring Partners Div */
+#partners{
+    height: 350px;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 1px;
+}
+#partners > h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+#partners > h3{
+    color: #545666;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+}
+#companies{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 70px);
+    grid-gap: 30px;
+}
+#companies > div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+#companies > div > img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Testimonials Div */
+
+#testimonials{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+#testimonials > h2{
+    margin-top: 10px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+#stories{
+    width:90%;
+    margin: auto;
+    margin-top: 20px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#stories > div{
+    position: relative;
+    width: 23%;
+}
+#stories > div > img{
+    width: 100%;
+    border-radius: 15px;
+}
+.story{
+    margin-top: -30px;
+    opacity: 100;
+    height: 250px;
+    position: absolute;
+    top: 220px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    grid-gap: 5px;
+    background-color: #eefff7;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 14px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#story2{
+    background-color: #f7f7ff;
+}
+#story3{
+    background-color: #f6ede7;
+}
+#story4{
+    background-color: #f2f7ff;
+}
+.logo{
+    height: 40px;
+}
+.studentName{
+    position: absolute;
+    top: 370px;
+    padding-left: 40px;;
+}
+#icon1{
+    color: #6fcd9e;
+    font-size: 22px;
+}
+#icon2{
+    color: #6e71cc;
+    font-size: 22px;
+}
+#icon3{
+    color: #cc926e;
+    font-size: 22px;
+}
+#icon4{
+    color: #3470e4;
+    font-size: 22px;
+}
+#testimonials > button{
+    background-color: #ed0331;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    height: 45px;
+    width: 180px;
+    border: 1px solid #ed0331;
+    border-radius: 5px;
+}
+#testimonials > button:hover{
+    background-color: #bd092c;
+    cursor: pointer;
+}
+
+
+/* PLACEMENTS DIV */
+
+#placements{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 220px);
+    grid-gap: 30px;
+    grid-template-areas:
+    "a a b b"
+    "c d b b";
+}
+
+#placements > div{
+    border-radius: 15px;
+}
+#placements > div:nth-child(1){
+    grid-area: a;
+    background-color: #3470e4;
+}
+#placements > div:nth-child(2){
+    grid-area: b;
+    text-align: center;
+    background-color: #6e71cc;
+}
+#placements > div:nth-child(3){
+    grid-area: c;
+    background-color: #6fbdcd;
+}
+#placements > div:nth-child(4){
+    grid-area: d;
+    background-color: #6fcd9e;
+}
+img[alt="media"]{
+    width: 100%;
+}
+.textWhite{
+    color: #ffffff;
+}
+a[href="https://www.masaischool.com/media/?page=1"]{
+    margin: auto;
+    margin-top: 10px;
+    color: #ffffff;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+#placements > div:nth-child(2) > h2{
+    margin-top: 40px;
+    font-size: 34px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.yellowText{
+    color: #ffdb66;
+}
+#placements > div > div{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+#placements > div > p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-left: -10px;
+}
+img[alt="underline"]{
+    margin-left: 40px;
+}
+
+/* Admission Process Div */
+
+#admission{
+    width: 90%;
+    height: 430px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#admission > p{
+    width: 40%;
+    margin: auto;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+#careerSteps{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    background-color: #f6ede7;
+    border-radius: 20px;
+}
+#admissionSteps{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 170px;
+    grid-gap: 20px;
+    justify-content: space-around;
+}
+#admissionSteps > div{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.step{
+    width: 80%;
+    margin: auto;
+}
+.stepNumber{
+    width: 40%;
+    margin: auto;
+    margin-top: 5px;
+    height: 60px;
+    background-color: #f6ede7;
+    color: #cc926e;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.stepText{
+    margin-top: 15px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* Careers Div */
+#careers{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+#careers > p{
+    width: 50%;
+    margin: auto;
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+#careers > p+p{
+    margin-top: -10px;
+}
+#courseName{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 450px;
+    grid-gap: 30px;
+    /* border: 1px solid blue; */
+}
+#courseName > div{
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+#courseName > div > div{
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    /* border: 1px solid blue; */
+}
+.course{
+    position: relative;
+    height: 35%;
+}
+#course1{
+    background-image: url("https://www.masaischool.com/img/homepage/Field/purple.png");
+    background-repeat: no-repeat;
+    background-color: #6e71cc;
+}
+#course2{
+    background-image: url("https://www.masaischool.com/img/homepage/Field/green.png");
+    background-repeat: no-repeat;
+    background-color: #6fcd9e
+}
+#course3{
+    background-image: url("https://www.masaischool.com/img/homepage/Field/brown.png");
+    background-repeat: no-repeat;
+    background-color: #cc926e;
+}
+.course > p{
+    margin: 0px;
+    line-height: 35px; 
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    bottom: 10px;
+}
+.course > hr{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: white;
+    width: 100%;
+}
+.courseDesc{
+    height: 25%;
+    font-size: 14px;
+}
+.courseDesc > p{
+    margin-left: 5px;
+}
+.courseDetails{
+    height: 25%;
+    font-size: 14px;
+}
+.courseDetailsList{
+    width: 90%;
+    margin-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+.courseDetailsList > div:first-child{
+    box-sizing: border-box;
+    width: 10%;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.courseDetailsList > div:last-child{
+    width: 80%;
+    padding-left: 5px;
+}
+.courseAbout{
+    height: 10%;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: right;
+}
+.redText{
+    color: #ef0531;
+    font-weight: bold;
+}
+.highlightText{
+    background-color: #ffdb66;
+}
+
+
+/* TEDx Video Link */
+#video{
+    width: 90%;
+    height: 500px;
+    margin: auto; 
+    margin-top: 30px;
+    background-color: #fffafb;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+    padding: 1px;
+}
+
+#videoDiv{
+    width: 90%;
+    height: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 50px auto;
+}
+#videoDiv > div:first-child{
+    padding: 20px;
+    height: 100%;
+    width: 35%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: #fffafb;
+}
+
+#videoDiv > div > p:first-child{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+}
+#videoDiv > div > p:last-child{
+    margin-top: 20px;
+    font-size: 14px;
+    /* line-height: 15px; */
+}
+#videoDiv > div:last-child{
+    height: 100%;
+    width: 60%;
+    border-radius: 15px;
+}
+iframe{
+    border-radius: 15px;
+}
+
+/* Instructors Div */
+
+#instructors{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#teachersInfo{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 350px);
+    grid-gap: 20px;
+}
+
+#instructors > p{
+    color: #808080;
+    font-size: 12px;
+    width: 30%;
+    margin: auto;
+}
+#instructors > button{
+    background-color: #ed0331;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    height: 45px;
+    width: 150px;
+    border: 1px solid #ed0331;
+    border-radius: 5px;
+}
+#instructors > button:hover{
+    background-color: #bd092c;
+    cursor: pointer;
+}
+
+#teachersInfo > div{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+
+.teacherPic{
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 70%;
+}
+.teacherCompany{
+    width: 100px;
+    margin-top: 10px;
+}
+.teacherName{
+    font-size: 18px;
+    font-weight: bold;
+}
+.teacherRole{
+    font-size: 12px;
+}
+
+
+/* COMPANY TESTIMONIALS DIV */
+
+#companyTestimonials{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 1px;
+    height: 600px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#companyTestimonials > h1{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 34px;
+    text-align: center;
+}
+
+#companyReviews{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 20px;
+}
+#companyReviews > div{
+    border-radius: 15px;
+}
+
+.companyName{
+    width: 90%;
+    height: 45%;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+/* .companyName > div{
+    border: 1px solid blue;
+} */
+.ceoPhoto{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.ceoPhoto > img{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 15px;
+}
+.ceoData{
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 15px;
+}
+.ceoName{
+    font-size: 14px;
+    font-weight: 600;
+}
+.ceoRole{
+    font-size: 10px;
+    color: #656673;
+}
+.ceoLogo{
+    margin-left: -8px;
+    width: 94px;
+    height: 40px;
+}
+
+.ceoReview{
+    height: 45%;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+.ceoReview > p{
+    font-size: 11px;
+    margin-left: 8px;
+}
+
+#companyReviews > div:nth-child(1){
+    background-color: #f2f6ff;
+}
+#companyReviews > div:nth-child(2){
+    background-color: #eefff7;
+}
+#companyReviews > div:nth-child(3){
+    background-color: #fff9e5;
+}
+#companyReviews > div:nth-child(4){
+    background-color: #f2f6ff;
+}
+
+
+
+/* MASAI TRIBE DIV */
+
+#masaiTribe{
+    width: 81%;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #f2f6ff;
+    padding: 1px;
+    border-radius: 15px;
+}
+
+#masaiTribeContainer{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 400px;
+    grid-gap: 30px;
+    grid-template-areas: "a a b c";
+}
+
+/* #masaiTribeContainer > div{
+    border: 1px solid green;
+} */
+
+#blog1{
+    box-sizing: border-box;
+    padding: 10px;
+    grid-area: a;
+}
+
+#blog1 > p:first-child{
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 38px;
+}
+
+#blog1 > p+p{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #808080;
+}
+
+#blog1 > a{
+    display: block;
+    margin-top: 20px;
+    height: 20px;
+    width: 110px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    color: #c63a33;
+    border: 1px solid #c63a33;
+    border-radius: 5px;
+}
+
+#blog1 > a:hover{
+    background-color: #fedfe5;
+}
+#blog2{
+    grid-area: b;
+}
+
+#blog3{
+    grid-area: c;
+}
+.blogImage{
+    height: 60%;
+}
+.blogImage > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.blogTitle{
+    height:40%;
+    text-align: center;
+    background-color: #3470e4;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 0px 0px 15px 15px;
+}
+.blogTitle > p{
+    width: 90%;
+    margin: auto;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* CONNECT WITH US DIV */
+
+#connect{
+    width: 100%;
+    height: 280px;
+    margin-top: 50px;
+    display: flex;
+}
+
+#connect > div{
+    width: 50%;
+    height: 100%;
+}
+
+#discord{
+    background-color: #f6ede7;
+}
+
+#discordText{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#discordText > p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#discordText a{
+    display: block;
+    width: 200px;
+    height: 45px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px;
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+}
+
+#discordText i{
+    color: #5165f6;
+    margin-right: 10px;
+}
+
+
+#faq{
+    background-color: #fff9e5;
+}
+
+#faqText{
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#faqText > p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#faqText a:hover{
+    background-color: #f2c6e5;
+    cursor: pointer;
+}
+#faqText a{
+    text-align: center;
+    display: block;
+    width: 80%;
+    height: 45px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ed0331;
+    background-color: #fff9e5;
+    border: 1px solid #ed0331;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+/* FOOTER DIV */
+
+#footer{
+    width: 100%;
+    height: 270px;
+    color: #ffffff;
+    background-color: #0a0103;
+}
+
+#footer > div{
+    width: 81%;
+    margin: auto;
+}
+
+#footer hr{
+    width: 83%;
+    margin: auto;
+    border-color: #808080;
+}
+
+#followUs{
+    height: 15%;
+    color: #808080;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 14px;
+}
+#followUs img{
+    width: 80px;
+    height: 25px;
+    margin-bottom: -5px;
+}
+.icons{
+    margin-left: 10px;
+}
+
+
+#List{
+    display: flex;
+    justify-content: space-between;
+    height: 65%;
+}
+
+#quickLinks{
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100%;
+    grid-gap: 20px;
+}
+
+#quickLinks > div{
+    box-sizing: border-box;
+    padding: 10px;
+}
+.linkText{
+    margin-top: 10px;
+}
+.linkText > a{
+    color: #868999;
+    text-decoration: none;
+}
+
+.linkText > a:hover{
+    color: #ed0331;
+}
+
+#offlineCampus{
+    width: 43%;
+}
+
+.redText{
+    color: #ed0331;
+}
+
+#campusText{
+    height: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#campusLoc{
+    height: 60%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.campusName{
+    text-align: center;
+}
+
+.campusImg{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #21191b;
+    border-radius: 20px;
+}
+
+.campusName > p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#companyDetails{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    color: #808080;
+}
+#companyDetails p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#companyDetails > div:last-child > p{
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+@media (-webkit-device-pixel-ratio: 1.25) {
+    :root {
+        zoom: 1.2;
+    }}
+
+
+
+/* ************* */
+/* DEPLOYED LINK
+
+
+https://zealous-hamilton-e598ef.netlify.app/ */
